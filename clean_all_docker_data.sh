@@ -3,12 +3,10 @@
 clear
 
 VERSION="1.0.0"
-APP_NAME="frontendapp"
 WORKDIR=$(pwd)
 DOCKER_DAEMON=$(which docker)
 
 echo -e "[ INFO ] SCRIPT VERSION: $VERSION\n"
-echo -e "\t[ INFO ] APPNAME: $APP_NAME"
 echo -e "\t[ INFO ] WORKDIR: $WORKDIR"
 echo -e "\t[ INFO ] DOCKER_DAEMON: $DOCKER_DAEMON"
 
