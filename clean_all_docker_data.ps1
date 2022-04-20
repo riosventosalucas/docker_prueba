@@ -2,7 +2,6 @@ cls
 
 $VERSION="1.0.0"
 $WORKDIR=(Get-Location).Path
-$DOCKER_DAEMON="docker"
 
 echo "[ INFO ] SCRIPT VERSION: $VERSION\n"
 echo "`t[ INFO ] WORKDIR: $WORKDIR"
